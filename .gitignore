@@ -1,0 +1,44 @@
+# JetBrains IDEs
+.idea/
+/.idea
+# VSCode
+.vscode/
+
+# Eclipse IDE
+.metadata/
+
+# NetBeans IDE
+.nb/
+
+# IntelliJ IDEA
+*.iml
+
+# Visual Studio
+.vs/
+.vs2019/
+.vs2017/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual Environments
+venv/
+.env/
+/.env
+.env
+uploads/
+*.pdf
+
+# Logs
+*.log

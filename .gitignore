@@ -1,42 +1,29 @@
-# JetBrains IDEs
+# IDEs
 .idea/
-/.idea
-# VSCode
 .vscode/
-
-# Eclipse IDE
 .metadata/
-
-# NetBeans IDE
 .nb/
-
-# IntelliJ IDEA
 *.iml
-
-# Visual Studio
-.vs/
-.vs2019/
-.vs2017/
-
-# MacOS
+.vs*/
+ 
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
 Desktop.ini
-
-# Linux
 *~
+
 # Python
 *.pyc
 *.pyo
 __pycache__/
 
 # Virtual Environments
+.venv/
 venv/
-.env/
-/.env
+env/
 .env
+
+# Uploads and PDFs
 uploads/
 *.pdf
 

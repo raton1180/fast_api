@@ -23,3 +23,15 @@ class UserResponse(BaseModel):
     status: int
     message: str
     data: UserData
+class LoginResponseData(BaseModel):
+    user: UserData
+    access_token: str  # Added this field
+
+    class Config:
+        from_attributes = True
+
+class LoginResponse(BaseModel):
+     status: int
+     message: str
+     data: UserData
+     access_token: str
